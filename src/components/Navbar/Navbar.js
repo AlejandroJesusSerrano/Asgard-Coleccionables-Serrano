@@ -1,4 +1,5 @@
 import React from 'react'
+import CartWidget from '../CartWidget/CartWidget'
 import './Navbar.css'
 
 export const Navbar = () => {
@@ -37,6 +38,7 @@ export const Navbar = () => {
                 <a className='nav-link special' href='/Login'>Log In</a>
               </li>
             </ul>
+            <CartWidget/>
           </div>
         </div>
       </nav>

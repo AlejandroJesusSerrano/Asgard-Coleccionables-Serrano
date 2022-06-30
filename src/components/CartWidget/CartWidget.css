@@ -1,0 +1,25 @@
+.widgetContainer{
+    background-color: #000;
+    color: #f2c230;
+    border-radius: .5em;
+    font-size: 1.5em;
+}
+
+.grid{
+    display: grid;
+    width:5em;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.counter
+{
+    box-sizing: border-box;
+    color: #f2c230;
+    align-items: center;
+    margin-top: .5em;
+}
+
+
+
