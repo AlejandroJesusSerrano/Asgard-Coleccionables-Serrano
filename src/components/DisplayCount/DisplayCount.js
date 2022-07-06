@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const DisplayCount = ({value}) => {
+export const CountButton = ({value}) => {
     
     return (
         
@@ -9,4 +9,4 @@ export const DisplayCount = ({value}) => {
         )
 }
 
-export default DisplayCount
+export default CountButton

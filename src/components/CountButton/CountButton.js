@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const CountButton = ({func, op}) => {
+export const CountButton = ({op, func}) => {
     
-    return <button onClick={op}>{func}</button>    
+    return <button onClick={func}>{op}</button>    
 
 }
 
