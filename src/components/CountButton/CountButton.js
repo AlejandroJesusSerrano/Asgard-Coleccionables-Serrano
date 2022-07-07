@@ -1,8 +1,9 @@
 import React from 'react'
+import './CountButton.css'
 
 export const CountButton = ({op, func}) => {
     
-    return <button onClick={func}>{op}</button>    
+    return <button className='countBtn' onClick={func}>{op}</button>    
 
 }
 

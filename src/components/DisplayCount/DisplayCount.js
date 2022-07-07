@@ -1,11 +1,12 @@
 import React from 'react'
+import './DisplayCount.css'
 
 export const CountButton = ({value}) => {
     
     return (
-        
-        <p>{value}</p>
-    
+        <div className='dispContainer'>
+            <p className='mx-auto my-auto countValue'>{value}</p>
+        </div>
         )
 }
 
