@@ -1,4 +1,3 @@
-import React from 'react'
 import './Item.css'
 
 export const Item = ({thumbnail, title, price, description, id}) => {
@@ -12,7 +11,7 @@ export const Item = ({thumbnail, title, price, description, id}) => {
       </div>
       <div className='moreData'>
           <span>{description}</span>
-          <span>{price}</span>
+          <span className='price'> ${price}</span>
       </div>
       <div className='moreBtn'>
           <a className='detailBtn' href='#'>Mostrar Detalles</a>

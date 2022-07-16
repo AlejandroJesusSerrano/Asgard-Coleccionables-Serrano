@@ -1,0 +1,5 @@
+.detailContainer{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}

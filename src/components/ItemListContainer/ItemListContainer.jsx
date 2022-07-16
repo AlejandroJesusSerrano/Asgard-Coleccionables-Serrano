@@ -14,10 +14,10 @@ export const ItemListContainer = () => {
         });
         
         productList
-        .then((data)=>{
+        .then((data)=> {
             setItems(data)
         })
-        .catch((err)=>{
+        .catch((err)=> {
             console.log(err)
         });
     }, []); 
