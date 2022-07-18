@@ -2,7 +2,7 @@ import ItemCount from "../ItemCount/ItemCount"
 import ItemList from "../ItemList/ItemList"
 import {useEffect} from 'react';
 import  React, {useState} from 'react';
-import {products} from '../../data/products.jsx';
+import {products} from '../../data/products.js';
 
 export const ItemListContainer = () => {
     const [items, setItems] = useState([]);

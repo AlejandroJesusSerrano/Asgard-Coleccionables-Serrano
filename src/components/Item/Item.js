@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 import './Item.css'
 
 export const Item = ({thumbnail, title, price, description, id}) => {

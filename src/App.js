@@ -1,12 +1,12 @@
 import './App.css';
 import 'bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar/Navbar.jsx'
+import Navbar from './components/Navbar/Navbar.js'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import React, {useState} from 'react'
 import {useEffect} from 'react';
-import {products} from './data/products.jsx';
+import {products} from './data/products.js';
 
 
 

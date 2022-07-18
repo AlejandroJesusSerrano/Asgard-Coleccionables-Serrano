@@ -1,3 +1,4 @@
+import React from 'react'
 import './ItemDetail.css'
 
 export const ItemDetail = ({thumbnail, title, price, description, id})=> {
